@@ -48,15 +48,3 @@ OPENAI_API_KEY=your_openai_key_here
 ```bash
 streamlit run app.py
 ```
-
-## Folder Structure
-
-- `data/`: place your PDF documentation here
-- `/`: main code files
-- `requirements.txt`: dependencies
-- `README.md`: this file
-
-## Mock Jira Ticket
-
-When the bot can't find a confident answer, it will offer to create a support ticket with mock Jira integration (prints to console).
-
