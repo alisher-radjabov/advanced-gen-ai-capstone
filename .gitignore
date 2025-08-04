@@ -1,0 +1,18 @@
+    # Ignore compiled output
+    /build/
+    /dist/
+
+    # Ignore dependency directories
+    node_modules/
+    vendor/
+
+    # Ignore log files
+    *.log
+
+    # Ignore environment variables and sensitive files
+    .env
+    config.json
+
+    # Ignore OS-specific files
+    .DS_Store
+    Thumbs.db
