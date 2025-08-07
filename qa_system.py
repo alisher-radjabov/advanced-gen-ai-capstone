@@ -11,12 +11,12 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# client = OpenAI()
-# response = client.chat.completions.create(
-#     model="gpt-3.5-turbo",
-#     messages=[{"role": "user", "content": "Test"}],
-#     max_tokens=500
-# )
+client = OpenAI()
+response = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    messages=[{"role": "user", "content": "Test"}],
+    max_tokens=500
+)
 
 class QASystem:
     """Question-Answering system using RAG (Retrieval-Augmented Generation)."""
